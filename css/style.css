@@ -1,12 +1,10 @@
 /*////////////// Fonts //////////////*/
-@font-face {
-font-family: "Baskerville";
-src: url("../fonts/baskerville.ttc");}
-
 
 /* link the web font used for the level 1 heading here */
-
-
+@font-face {
+	font-family: "Baskerville"
+	rc: ("../fonts/Baskerville.ttc");
+}
 /*////////// Global Styles //////////*/
 
 body {
@@ -22,42 +20,42 @@ body {
 	padding: 0 45px 20px;
 }
 
- header a {
-  color: rgb(152,173,166);
-  text-decoration: none;
- }
- 
- a {
-  background: transparent;
- }
- h1 {
-    padding-bottom: 10px;
-    margin: 0 0 5px;
-    font-size: 5em;
-    font-weight: normal;
-    font-family: 'Baskerville', serif;
-    border-bottom: 1px solid #ccc;
- }
- 
- h2 {
-   color: rgb(152,173,166);
- }
- 
- #features img {
-  border: 5px rgb(152,173,166) solid;
+header a {
+	color: #98ada6;
+	text-decoration: none;
+}
+
+a {
+	background: transparent;
+}
+
+h1 {
+	padding-bottom: 10px;
+	margin: 0 0 5px;
+	font-size: 8em;
+	font-weight: bold;
+	font-family: 'Baskerville', serif;
+	border-bottom: 2px solid gray;
+}
+
+h2 {
+	color: gray;
+}
+
+#features img {
+	border: 5px rgb(152,173,166) solid;
 }
 
 #press {
-  margin-bottom: 20px;
-  display: block;
-  color: rgb(152,173,166);
+	margin-bottom: 20px;
+	display: inline-block;
+	color: 5px rgb(152,173,166) solid;
 }
 
 img {
-  border: 5px rgb(152,173,166) solid;
+	border: 5px gray solid;
 }
- 
- footer {
-   text-align: right;
- }
-    
+
+footer {
+	text-align: right;
+}
